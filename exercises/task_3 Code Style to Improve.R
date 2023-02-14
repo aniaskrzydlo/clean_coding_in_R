@@ -6,8 +6,8 @@ Selection = function(d , cols){
   return(d[,cols])
 }
 data <- Selection (
-rawData,
-c("Species","Sepal.Length","Sepal.Width")
+  rawData,
+  c("Species","Sepal.Length","Sepal.Width")
 )
 colnames( data )=c('species','length','width')
 
